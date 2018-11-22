@@ -1,7 +1,8 @@
 # WebDevUdemy
 This course constains exercises proposed by the instructors of the Web Development course, in the following languages/ scripts:
 
-- HTML5;
+- HTML5:
+   Working with links, headers, footers, and many more elements to build sites;
 - CSS3;
 - Bootstrap 4;
 - Apache Server;
