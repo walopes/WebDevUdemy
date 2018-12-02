@@ -21,7 +21,53 @@
 
 		<h2>Página principal</h2>
 		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a sollicitudin eros. Pellentesque nec imperdiet orci. Integer tincidunt sodales sodales. Donec ultrices ultrices augue, id luctus eros venenatis sed. Duis ultricies elementum elit eu lobortis. Maecenas leo leo, dapibus nec ex quis, ultricies interdum nibh. Nulla tristique, mi et efficitur finibus, tellus est pellentesque nunc, id hendrerit nisi purus nec ipsum. In hac habitasse platea dictumst. Etiam lorem risus, dictum at suscipit et, molestie sed dui. In suscipit eros eu bibendum condimentum. Sed eget arcu non ligula faucibus dapibus. Donec facilisis tincidunt augue a sagittis. Aliquam volutpat lacus ut gravida commodo. </p>
+		
+		<form>
+			<strong>Formulário: <br /></strong>
+			Login: <br />
+			<input type="text" name="login"><br>
 
+			Senha: <br />
+			<input type="password" name="senha">
+			<!-- Button to perform an action -->
+			<input type="button" value="logar" >
+		</form>
+Obs.: Essa forma não é segura, visto que na URL é apresentada a senha informada pelo usuário!!
+			Obs.2: Para obter e trabalhar com os dados do form, utiliza-se uma linguagem como PHP, para processamento do lado do servidor.
+
+			<h2>Cadastre-se</h2>
+			Login: <br>
+			<input type="text" name="login"> </br>
+
+			sexo: <br>
+			<input type="radio" name="sexo" value="M"> Masculino
+			<input type="radio" name="sexo" value="F"> Feminino <br>
+
+			Obs.3: Mesmo "name" para marcar somente uma das opções.
+
+			<h3>Interesses</h3>
+			<form>	
+				<input type="checkbox" name="int"> Futebol <br>
+				<input type="checkbox" name="int "> Cursos <br>
+				<input type="checkbox" name="int"> Programação <br>
+				<input type="checkbox" name="int "> Youtube  <br>
+				<input type="checkbox" name="int"> Netflix <br>
+
+				<h3>Estado</h3>
+			
+				<select>
+					<option value="sp">SP</option>
+					<option value="pr">PR</option>
+					<option value="sc">SC</option>
+					<option value="mg">MG</option>
+				</select>
+
+				Observações: <br>
+				<textarea></textarea>
+
+				<input type="submit" value="Cadastrar">
+
+			</form>
 
 	</body>
 
