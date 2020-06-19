@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+      <title>Posicionamento de elementos</title>
+      <meta charset="utf-8"/>
+
+      <style type="text/css">
+
+        body{
+            background: #007fc7;
+        }
+
+        #container{
+            background: #FFF;
+            width: 800px;
+            margin: 10px auto;
+
+        }
+
+        h1{
+            position: static;
+        }
+
+        p{
+            position: static;
+            width: 400px;
+        }
+
+        .absolute{
+            border:1px solid red;
+            background: #f2f2f2;
+            position: absolute;
+            top: 0px;
+            right: 20px;
+        }
+
+        .relative{
+            border: 1px solid red;
+            position: relative;
+            /*top, bottom, right and left*/
+            top: 20px;
+            left: 15px;
+        }
+
+        .fixed{
+            border: 1px solid red;
+            background: #f2f2f2;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+        }
+
+      </style>
+	
+  </head>
+  <body >
+
+    <div id="container">
+        <h1>Posicionamento</h1>
+
+        <p class="absolute">  Paragraph 1
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus scelerisque nisi vel laoreet. Proin elementum dui eget tristique fermentum. In nulla velit, tempor eget enim consectetur, vulputate mattis risus. Sed at luctus dui, ac commodo augue. Phasellus in erat elit. Praesent a orci vitae nisi mattis scelerisque a a odio. In at tortor dolor. Nunc varius sagittis mi nec consequat. Ut sed lectus eu tellus volutpat rhoncus et non enim. 
+        </p>
+
+        <p class="relative"> Paragraph 2
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales metus nec commodo tempus. Integer vitae tortor a dolor volutpat faucibus. Proin pellentesque, nisl id blandit tincidunt, quam est facilisis quam, vitae tincidunt enim mauris id nunc. Aenean eget arcu vulputate, interdum urna vitae, lacinia libero. Curabitur ac diam in massa varius pharetra a eu neque. Fusce lacinia a dolor imperdiet aliquam. Praesent tristique mauris et aliquam convallis. 
+        </p>
+
+        <p class="fixed"> Paragraph 3
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed lacinia velit. Sed sodales, justo sed dictum cursus, mauris nisl congue diam, quis cursus orci tellus quis arcu. Sed metus felis, volutpat id luctus in, suscipit ac nisi. Suspendisse est massa, imperdiet laoreet accumsan luctus, commodo sit amet ante. Etiam lorem dolor, mattis in mattis quis, luctus sit amet risus. Nunc facilisis libero sit amet mauris semper euismod. Maecenas condimentum dolor sed magna pharetra blandit. Nam vel odio non lacus congue vulputate. Maecenas egestas eget odio in finibus. Praesent molestie sed dolor eu pretium. Quisque elementum nulla nec efficitur molestie. 
+        </p>
+
+
+        <p> Paragraph 4
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed lacinia velit. Sed sodales, justo sed dictum cursus, mauris nisl congue diam, quis cursus orci tellus quis arcu. Sed metus felis, volutpat id luctus in, suscipit ac nisi. Suspendisse est massa, imperdiet laoreet accumsan luctus, commodo sit amet ante. Etiam lorem dolor, mattis in mattis quis, luctus sit amet risus. Nunc facilisis libero sit amet mauris semper euismod. Maecenas condimentum dolor sed magna pharetra blandit. Nam vel odio non lacus congue vulputate. Maecenas egestas eget odio in finibus. Praesent molestie sed dolor eu pretium. Quisque elementum nulla nec efficitur molestie. 
+        </p>
+
+        <p> Paragraph 5
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed lacinia velit. Sed sodales, justo sed dictum cursus, mauris nisl congue diam, quis cursus orci tellus quis arcu. Sed metus felis, volutpat id luctus in, suscipit ac nisi. Suspendisse est massa, imperdiet laoreet accumsan luctus, commodo sit amet ante. Etiam lorem dolor, mattis in mattis quis, luctus sit amet risus. Nunc facilisis libero sit amet mauris semper euismod. Maecenas condimentum dolor sed magna pharetra blandit. Nam vel odio non lacus congue vulputate. Maecenas egestas eget odio in finibus. Praesent molestie sed dolor eu pretium. Quisque elementum nulla nec efficitur molestie. 
+        </p>
+        
+        <p> Paragraph 6
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed lacinia velit. Sed sodales, justo sed dictum cursus, mauris nisl congue diam, quis cursus orci tellus quis arcu. Sed metus felis, volutpat id luctus in, suscipit ac nisi. Suspendisse est massa, imperdiet laoreet accumsan luctus, commodo sit amet ante. Etiam lorem dolor, mattis in mattis quis, luctus sit amet risus. Nunc facilisis libero sit amet mauris semper euismod. Maecenas condimentum dolor sed magna pharetra blandit. Nam vel odio non lacus congue vulputate. Maecenas egestas eget odio in finibus. Praesent molestie sed dolor eu pretium. Quisque elementum nulla nec efficitur molestie. 
+        </p>
+
+    </div>
+
+  </body>
+</html>
